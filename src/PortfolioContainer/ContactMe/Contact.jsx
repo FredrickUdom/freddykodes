@@ -1,5 +1,28 @@
-import'./Contact.css'
+import'./Contact.css';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser'; 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm('service_f5coniy', 'template_qz5r5dn', form.current, {
+          publicKey: 'f_WQeaENkGAtfue8o',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    };
+
+
+    // 
     return ( 
 
 		<div class="container contact mt-3 mb-5 mt-5 row px-0 mx-auto">
@@ -9,19 +32,19 @@ const Contact = () => {
         </div>
     </div>
     <div class="col-md-6">
-        <form action="#" class="shadow p-4 p-md-5 contact-form bg-light">
+        <form ref={form} onSubmit={sendEmail} class="shadow p-4 p-md-5 contact-form bg-light">
             <h5 class='text-center pb-3'>Let's Connect Via Mail</h5>
             <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name"/>
+                <input type="text" class="form-control" placeholder="Your Name" name='user_name'/>
             </div>
             <div class="form-group pt-3">
-                <input type="email" class="form-control" placeholder="Your Email"/>
+                <input type="email" class="form-control" placeholder="Your Email" name='user_email'/>
             </div>
-            <div class="form-group pt-3">
+            {/* <div class="form-group pt-3">
                 <input type="text" class="form-control" placeholder="Subject"/>
-            </div>
+            </div> */}
             <div class="form-group pt-3">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
             </div>
             <div class="form-group pt-3">
                 <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5 contact-btn"/>
