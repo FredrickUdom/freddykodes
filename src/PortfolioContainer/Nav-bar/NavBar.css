@@ -1,0 +1,40 @@
+.navbar-area{
+    background-color: #111E6C;
+    background-size: cover;
+    width:100vw;
+    position: sticky;
+    overflow-x: hidden;
+    top: 0;
+    
+    
+}
+.linkText a{
+    color: antiquewhite !important;
+    padding-right: 60px !important ;
+}
+.logo > a{
+    color:antiquewhite;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.logo span{
+    padding-left: 30px;
+}
+
+
+    @media screen and (max-width:216px){
+        .navbar-area{
+            /* width: 50rem !important; */
+            overflow-wrap: break-word !important;
+            background-size: cover !important;
+        }
+
+        .logo > a{
+            color:antiquewhite;
+            font-size: 15px;
+            font-weight: bold;
+        
+        }
+    }

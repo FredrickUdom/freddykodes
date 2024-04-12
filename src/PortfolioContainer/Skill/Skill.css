@@ -1,0 +1,57 @@
+/* .docker img{
+    width: 30% !important;
+    height: 55% !important;
+    
+    margin-left: 32%;
+} */
+/* .services img{
+    width: 50% !important;
+    height: 60% !important;
+} */
+/* .col-md-3{
+    width: 30% !important;
+    border-radius: 5px;
+    line-height: 15px !important;
+    
+}
+h2 p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    text-align: center;
+} */
+/* .desc h3{
+    line-height: 30px !important;
+} */
+/* .service-section .shadow{
+    height: 50% !important;
+} */
+
+
+/* .service-section{
+    height: 5% !important;
+    width: 20%;
+    
+} */
+
+/* .services img{
+    height: 120px !important;
+    width: 300px !important;
+}
+.docker img{
+    height: 120px !important;
+    width: 150px !important;
+    text-align: center !important;
+}
+@media screen and (max-width:991px){
+    .rows{
+        width: 65% !important;
+        height: 60% !important;
+        
+    }
+}
+@media screen and (max-width:383px){
+    .col-md-3{
+        width: 50% !important;
+    }
+    
+} */
