@@ -57,9 +57,9 @@ const Contact = () => {
         </form>
     </div>
 
-    {/* <div className="push-btn ">
+    <div className="push-btn ">
       <a href="#" ><i class="fa fa-arrow-up bg-primary text-white mt-3" aria-hidden="true"></i></a>
-    </div> */}
+    </div>
 
 </div>
 
