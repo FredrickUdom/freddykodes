@@ -3,7 +3,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser'; 
 const Contact = () => {
     const form = useRef();
-    // const [sentMassage, setSentMessage] = useState(false);
+    const [sentMassage, setSentMessage] = useState(false);
     const sendEmail = (e) => {
       e.preventDefault();
   
@@ -14,7 +14,7 @@ const Contact = () => {
         .then(
           () => {
             console.log('SUCCESS!');
-            // setSentMessage(true)
+            setSentMessage(true)
           },
           (error) => {
             // console.log('FAILED...', error.text);
