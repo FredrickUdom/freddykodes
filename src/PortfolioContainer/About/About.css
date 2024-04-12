@@ -1,11 +1,13 @@
-.download-btn{
+/* .download-btn{
     background-color: #111E6C !important;
+    color: aliceblue;
 }
 .download-btn:hover{
-    border: #0720af !important;
+   
     background-color: #0720af !important;
     transition: all ease-in-out 1s;
-}
+    color: aliceblue;
+} */
 
 h2 p{
     font-family:Verdana, Geneva, Tahoma, sans-serif;

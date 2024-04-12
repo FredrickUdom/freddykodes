@@ -1,8 +1,22 @@
 .contact-btn{
     background-color: #111E6C !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+   font-weight: 500;
 }
 .contact-btn:hover{
-    border: none !important;
-    background-color: #0720af !important;
+    /* border: 2px white solid !important; */
+    background-color: #1A569C !important;
     transition: all ease-in-out 1s;
 }
+
+
+/* .push-btn a{
+    float: inline-end !important; 
+    
+} */
+/* .push-btn a i:hover{
+    background: #111E6C !important;
+    color: gray;
+
+    
+} */

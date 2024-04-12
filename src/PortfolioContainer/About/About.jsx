@@ -27,10 +27,10 @@ function About() {
 							</div>
 						</div>
 					</div>
-					<div class="counter-wrap ftco-animate d-flex mt-md-3">
-						<div class="text">
-							<p><a href="./resume/myResume.pdf" target="_blank" class="btn btn-primary py-3 px-3">Download Resume</a></p>
-						</div>
+					<div class="counter-wrap ftco-animate d-flex mt-md-1">
+					<div class="form-group pt-3">
+                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5 contact-btn "/>
+            </div>
 					</div>
 				</div>
 			</div>

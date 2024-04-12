@@ -1,9 +1,9 @@
 import'./Contact.css';
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser'; 
 const Contact = () => {
     const form = useRef();
-
+    // const [sentMassage, setSentMessage] = useState(false);
     const sendEmail = (e) => {
       e.preventDefault();
   
@@ -14,11 +14,16 @@ const Contact = () => {
         .then(
           () => {
             console.log('SUCCESS!');
+            // setSentMessage(true)
           },
           (error) => {
-            console.log('FAILED...', error.text);
+            // console.log('FAILED...', error.text);
+            
+              // alert('failed to send')
+            
           },
         );
+        // e.target.reset()
     };
 
 
@@ -35,24 +40,28 @@ const Contact = () => {
         <form ref={form} onSubmit={sendEmail} class="shadow p-4 p-md-5 contact-form bg-light">
             <h5 class='text-center pb-3'>Let's Connect Via Mail</h5>
             <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name" name='user_name'/>
+                <input type="text" class="form-control" placeholder="Your Name" name='user_name' required/>
             </div>
             <div class="form-group pt-3">
-                <input type="email" class="form-control" placeholder="Your Email" name='user_email'/>
+                <input type="email" class="form-control" placeholder="Your Email" name='user_email' required/>
             </div>
             <div class="form-group pt-3">
-                <input type="number" class="form-control" placeholder="WhatsApp Number" name='whatsapp'/>
+                <input type="number" class="form-control" placeholder="WhatsApp Number" name='whatsapp' required/>
             </div>
             <div class="form-group pt-3">
-                <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
             </div>
             <div class="form-group pt-3">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5 contact-btn"/>
+                <input type="submit" value="Send Message" class="btn text-center btn-primary py-3 px-5 contact-btn "/>
             </div>
         </form>
     </div>
-</div>
 
+    {/* <div className="push-btn ">
+      <a href="#" ><i class="fa fa-arrow-up bg-primary text-white mt-3" aria-hidden="true"></i></a>
+    </div> */}
+
+</div>
 
      );
 }

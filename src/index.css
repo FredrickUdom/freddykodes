@@ -93,7 +93,7 @@ body ::-webkit-scrollbar-thumb{
 
 .btn-primary:hover{
   color: aliceblue;
-  border: 2px solid #ff5823 !important;
+  border: 2px solid aliceblue !important;
   background-color: #1f2235;
 }
 
