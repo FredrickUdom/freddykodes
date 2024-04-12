@@ -40,9 +40,9 @@ const Contact = () => {
             <div class="form-group pt-3">
                 <input type="email" class="form-control" placeholder="Your Email" name='user_email'/>
             </div>
-            {/* <div class="form-group pt-3">
-                <input type="text" class="form-control" placeholder="Subject"/>
-            </div> */}
+            <div class="form-group pt-3">
+                <input type="number" class="form-control" placeholder="WhatsApp Number" name='whatsapp'/>
+            </div>
             <div class="form-group pt-3">
                 <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
             </div>
