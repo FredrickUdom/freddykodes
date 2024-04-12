@@ -17,9 +17,9 @@ const Contact = () => {
             setSentMessage(true)
           },
           (error) => {
-            // console.log('FAILED...', error.text);
+            console.log('FAILED...', error.text);
             
-              // alert('failed to send')
+              alert('failed to send')
             
           },
         );
