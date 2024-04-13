@@ -82,7 +82,7 @@ function Profile() {
                             Hire Me 😉{" "}
                         </button> */}
                         <a href=""><button className="btn highlighted-btn hire-me">Hire Me 😉</button></a>
-                        <a href="fredrickUdom_Resume.pdf" download=" Fredrick fredrickUdom_Resume.pdf"><button className="btn highlighted-btn get-resume">Resume 📑</button></a>
+                        <a href="fredrickUdom_Resume.pdf" download=" Fredrick fredrickUdom_Resume.pdf"><button className="btn highlighted-btn get-resume">Resume <i class="fa fa-download" aria-hidden="true"></i></button></a>
 
                     </div>
                 </div>

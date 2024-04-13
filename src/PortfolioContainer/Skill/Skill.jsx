@@ -4,7 +4,7 @@ import typescript from '../../assets/img/typescript_node.png';
 import './Skill.css';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 const Skill = () => {
-	const now = 100;
+	const now = 70;
 	return (
 
 		<div className="skill">
@@ -79,7 +79,7 @@ const Skill = () => {
 								<div class="desc pb-3">
 									<h3>Dockerize container for deployment I write Nestjs for building scalable server-side APIs</h3>
 									
-									<ProgressBar striped variant='success' now={now} label={`${now}%`} />
+									<ProgressBar  variant='success' now={now} label={`${now}%`} className='progress'/>
 									
 								</div>
 							</a>
