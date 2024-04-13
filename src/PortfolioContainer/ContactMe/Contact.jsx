@@ -1,6 +1,9 @@
 import'./Contact.css';
 import React, { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser'; 
+import emailjs from '@emailjs/browser';
+// import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+// import { Carousel } from 'react-responsive-carousel'; 
+import laptopSystem from '../../assets/img/system.jpg';
 const Contact = () => {
     const form = useRef();
     const [sentMassage, setSentMessage] = useState(false);
@@ -32,8 +35,27 @@ const Contact = () => {
 
 		<div class="container contact mt-3 mb-5 mt-5 row px-0 mx-auto">
     <div class="content col-md-6">
-        <div class="shadow px-3 about">
-            <p>I write server-side logic with NestJS using SQL and NoSQL databases. I am passionate about learning new things and improving my skills as a Backend Developer. I am a seasoned developer with 2 years of experience in ExpressJs/NestJs and HTML, CSS, Bootstrap.</p>
+        <div class="shadow px-3 about bg-primary text-white certificate">
+          {/* <h3><b>CERTIFICATES</b></h3> */}
+        {/* <Carousel> */}
+            <div>
+                <img src={laptopSystem} style={{ width: "30%" }}/>
+                <h1 className="legend text-bold-500">Web Design Skills</h1>
+                <p>I create visually appealing web designs that suit your needs!
+                <h1 className="legend text-bold-500">Graphic Design</h1>
+                </p>
+            </div>
+            <div>
+                <img src={laptopSystem} style={{ width: "30%" }}/>
+                <h1 className="legend">Software Development</h1>
+                <p>My digital skills enable me to create functional and visually appealing UI and applications. I deliver exceptional results and drive growth that meet the unique needs of my clients and employers</p>
+            </div>
+            <div>
+                <img src={laptopSystem} style={{ width: "30%"}} />
+                <h1 className="legend font-bold">Entrepreneurship </h1>
+                <p>I leverage my digital skills in a customer-centric and result-driven way!</p>
+            </div>
+        {/* </Carousel> */}
         </div>
     </div>
     <div class="col-md-6">
