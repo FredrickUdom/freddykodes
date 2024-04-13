@@ -23,8 +23,8 @@ const Skill = () => {
 					<div class="row gap-5 justify-content-center">
 						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
 							<a href="#" class="services-1 w-100">
-								<span class="icon">
-									<img src={nestjs} alt="" class="img-fluid " />
+								<span class="icon ">
+									<img src={nestjs} alt="" class="img-fluid " style={{ width: "60%"}} />
 								</span>
 								<div class="desc pb-3">
 									<h3>I write Nestjs for building scalable server-side APIs</h3>
@@ -34,7 +34,7 @@ const Skill = () => {
 						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
-									<img src={nestjs} alt="" class="img-fluid " />
+									<img src={nestjs} alt="" class="img-fluid " style={{ width: "60%"}} />
 								</span>
 								<div class="desc pb-3">
 									<h3>I write Nestjs for building scalable server-side APIs</h3>
@@ -44,7 +44,7 @@ const Skill = () => {
 						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
-									<img src={typescript} alt="" class="img-fluid" />
+									<img src={typescript} alt="" class="img-fluid"style={{ width: "60%"}} />
 								</span>
 								<div class="desc pb-3">
 									<h3>I use Typescript and Nodejs with Nestjs I write Nestjs for building scalable server-side APIs</h3>
@@ -54,27 +54,31 @@ const Skill = () => {
 						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
-									<img src={typescript} alt="" class="img-fluid" />
+									<img src={typescript} alt="" class="img-fluid" style={{ width: "60%"}} />
 								</span>
 								<div class="desc pb-3">
 									<h3>I use Typescript and Nodejs with Nestjs I write Nestjs for building scalable server-side APIs</h3>
 								</div>
 							</a>
 						</div>
+						
 						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow docker">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
-									<img src={docker} alt="" class="img-fluid" />
+									<img src={docker} alt="" class="img-fluid" style={{ width: "30%" }}/>
 								</span>
 								<div class="desc pb-3">
 									<h3>Dockerize container for deployment I write Nestjs for building scalable server-side APIs</h3>
+									
+									<ProgressBar  variant='success' now={now} label={`${now}%`} className='progress'/>
+									
 								</div>
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow docker">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
-									<img src={docker} alt="" class="img-fluid" />
+									<img src={docker} alt="" class="img-fluid" style={{ width: "30%" }}/>
 								</span>
 								<div class="desc pb-3">
 									<h3>Dockerize container for deployment I write Nestjs for building scalable server-side APIs</h3>
