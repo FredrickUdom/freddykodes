@@ -44,81 +44,59 @@ const Contact = () => {
         <div class="shadow px-3 about bg-primary text-white certificate">
         <section class="ftco-section" id="services-section">
 				<div class="container">
-					<div class="row justify-content-center py-2">
+					<div class="row justify-content-center">
 						<div class="col-md-12 heading-section text-center ftco-animate">
-						<h2 class="mb-4 pt-5 h2 text-center"><p>Skills</p></h2>
+						<h2 class="mb-4 h2 text-center"><p>Certificate</p></h2>
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
 						</div>
 					</div>
 
 					<div class="row gap-5 justify-content-center">
-						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
+						<div class="col-lg-5 col-md-6 text-center d-flex ftco-animate shadow services">
 							<a href="#" class="services-1 w-100">
 								<span class="icon ">
-									<img src={nestjs} alt="" class="img-fluid m-auto " style={{ width: "60%"}} />
+									<img src={nestjs} alt="" class="img-fluid m-auto " style={{width: "100%", height:"90%"}} />
 								</span>
 								<div class="desc pb-3">
 									<h3>I write Nestjs for building scalable server-side APIs</h3>
 								</div>
 							</a>
 						</div>
-						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
+						<div class="col-lg-5 col-md-6 text-center d-flex ftco-animate shadow services">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
-									<img src={nestjs} alt="" class="img-fluid m-auto" style={{ width: "60%"}} />
+									<img src={nestjs} alt="" class="img-fluid m-auto" style={{ width: "100%", height:"90%"}} />
 								</span>
 								<div class="desc pb-3">
 									<h3>I write Nestjs for building scalable server-side APIs</h3>
-								</div>
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
-							<a href="#" class="services-1 w-100">
-								<span class="icon">
-									<img src={typescript} alt="" class="img-fluid m-auto"style={{ width: "60%"}} />
-								</span>
-								<div class="desc pb-3">
-									<h3>I use Typescript and Nodejs with Nestjs I write Nestjs for building scalable server-side APIs</h3>
-								</div>
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
-							<a href="#" class="services-1 w-100">
-								<span class="icon">
-									<img src={typescript} alt="" class="img-fluid m-auto" style={{ width: "60%"}} />
-								</span>
-								<div class="desc pb-3">
-									<h3>I use Typescript and Nodejs with Nestjs I write Nestjs for building scalable server-side APIs</h3>
 								</div>
 							</a>
 						</div>
 						
-						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow docker">
+            <div class="col-lg-5 col-md-6 text-center d-flex ftco-animate shadow services">
 							<a href="#" class="services-1 w-100">
-								<span class="icon">
-									<img src={docker} alt="" class="img-fluid m-auto" style={{ width: "30%" }}/>
+								<span class="icon ">
+									<img src={nestjs} alt="" class="img-fluid m-auto " style={{width: "100%", height:"90%"}} />
 								</span>
 								<div class="desc pb-3">
-									<h3>Dockerize container for deployment I write Nestjs for building scalable server-side APIs</h3>
-									
-									<ProgressBar  variant='success' now={now} label={`${now}%`} className='progress'/>
-									
+									<h3>I write Nestjs for building scalable server-side APIs</h3>
 								</div>
 							</a>
 						</div>
-						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow docker">
+						<div class="col-lg-5 col-md-6 text-center d-flex ftco-animate shadow services">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
-									<img src={docker} alt="" class="img-fluid m-auto" style={{ width: "30%" }}/>
+									<img src={nestjs} alt="" class="img-fluid m-auto" style={{ width: "100%", height:"90%"}} />
 								</span>
 								<div class="desc pb-3">
-									<h3>Dockerize container for deployment I write Nestjs for building scalable server-side APIs</h3>
-									
-									<ProgressBar  variant='success' now={now} label={`${now}%`} className='progress'/>
-									
+									<h3>I write Nestjs for building scalable server-side APIs</h3>
 								</div>
 							</a>
 						</div>
+						
+						
+						
+						
 					</div>
 				</div>
 			</section>
