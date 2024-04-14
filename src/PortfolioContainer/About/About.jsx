@@ -29,7 +29,7 @@ function About() {
 					</div>
 					<div class="counter-wrap ftco-animate d-flex mt-md-1">
 					<div class="form-group pt-3">
-					<a href="fredrickUdom_Resume.pdf" download=" Fredrick fredrickUdom_Resume.pdf"><button className="btn px-5 highlighted-btn get-resume">Download <i class="fa fa-download" aria-hidden="true"></i></button></a>
+					<a href="fredrickUdom_Resume.pdf" download=" Fredrick fredrickUdom_Resume.pdf"><button type="button" className='btn btn-primary py-3' style={{backgroundColor: '#111E6C '}}>Download Resume <i class="fa fa-cloud-download" aria-hidden="true"></i></button></a>
             </div>
 					</div>
 				</div>

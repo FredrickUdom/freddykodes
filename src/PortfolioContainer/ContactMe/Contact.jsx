@@ -74,7 +74,7 @@ const Contact = () => {
                 <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
             </div>
             <div class="form-group pt-3">
-                <input type="submit" value="Send Message" class="btn text-center btn-primary py-3 px-5 contact-btn "/>
+                <input type="submit" value="Send Message" class="btn text-center btn-primary py-3 px-5 contact-btn"/>
             </div>
         </form>
     </div>
