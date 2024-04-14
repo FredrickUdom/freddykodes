@@ -1,6 +1,7 @@
 // import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 // import { Carousel } from 'react-responsive-carousel'; 
 import laptopSystem from '../../assets/img/system.jpg';
+import './Project.css'
 const Project = () => {
   return (
     <div id="project-section">
