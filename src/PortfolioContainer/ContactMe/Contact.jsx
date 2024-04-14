@@ -4,7 +4,13 @@ import emailjs from '@emailjs/browser';
 // import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 // import { Carousel } from 'react-responsive-carousel'; 
 import laptopSystem from '../../assets/img/system.jpg';
+
+import docker from '../../assets/img/docker.png';
+import nestjs from '../../assets/img/nestjs.png';
+import typescript from '../../assets/img/typescript_node.png';
+import ProgressBar from 'react-bootstrap/ProgressBar';
 const Contact = () => {
+  const now = 70;
     const form = useRef();
     const [sentMassage, setSentMessage] = useState(false);
     const sendEmail = (e) => {
@@ -33,29 +39,91 @@ const Contact = () => {
     // 
     return ( 
 
-		<div class="container contact mt-3 mb-5 mt-5 row px-0 mx-auto">
-    <div class="content col-md-6">
+		<div class="container contact mb-5 mt-5 row px-0 mx-auto">
+    <div class="content col-md-6 col-lg-6 d-flex">
         <div class="shadow px-3 about bg-primary text-white certificate">
-          {/* <h3><b>CERTIFICATES</b></h3> */}
-        {/* <Carousel> */}
-            <div>
-                <img src={laptopSystem} style={{ width: "30%" }}/>
-                <h1 className="legend text-bold-500">Web Design Skills</h1>
-                <p>I create visually appealing web designs that suit your needs!
-                <h1 className="legend text-bold-500">Graphic Design</h1>
-                </p>
-            </div>
-            <div>
-                <img src={laptopSystem} style={{ width: "30%" }}/>
-                <h1 className="legend">Software Development</h1>
-                <p>My digital skills enable me to create functional and visually appealing UI and applications. I deliver exceptional results and drive growth that meet the unique needs of my clients and employers</p>
-            </div>
-            <div>
-                <img src={laptopSystem} style={{ width: "30%"}} />
-                <h1 className="legend font-bold">Entrepreneurship </h1>
-                <p>I leverage my digital skills in a customer-centric and result-driven way!</p>
-            </div>
-        {/* </Carousel> */}
+        <section class="ftco-section" id="services-section">
+				<div class="container">
+					<div class="row justify-content-center py-2">
+						<div class="col-md-12 heading-section text-center ftco-animate">
+						<h2 class="mb-4 pt-5 h2 text-center"><p>Skills</p></h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+						</div>
+					</div>
+
+					<div class="row gap-5 justify-content-center">
+						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
+							<a href="#" class="services-1 w-100">
+								<span class="icon ">
+									<img src={nestjs} alt="" class="img-fluid m-auto " style={{ width: "60%"}} />
+								</span>
+								<div class="desc pb-3">
+									<h3>I write Nestjs for building scalable server-side APIs</h3>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
+							<a href="#" class="services-1 w-100">
+								<span class="icon">
+									<img src={nestjs} alt="" class="img-fluid m-auto" style={{ width: "60%"}} />
+								</span>
+								<div class="desc pb-3">
+									<h3>I write Nestjs for building scalable server-side APIs</h3>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
+							<a href="#" class="services-1 w-100">
+								<span class="icon">
+									<img src={typescript} alt="" class="img-fluid m-auto"style={{ width: "60%"}} />
+								</span>
+								<div class="desc pb-3">
+									<h3>I use Typescript and Nodejs with Nestjs I write Nestjs for building scalable server-side APIs</h3>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
+							<a href="#" class="services-1 w-100">
+								<span class="icon">
+									<img src={typescript} alt="" class="img-fluid m-auto" style={{ width: "60%"}} />
+								</span>
+								<div class="desc pb-3">
+									<h3>I use Typescript and Nodejs with Nestjs I write Nestjs for building scalable server-side APIs</h3>
+								</div>
+							</a>
+						</div>
+						
+						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow docker">
+							<a href="#" class="services-1 w-100">
+								<span class="icon">
+									<img src={docker} alt="" class="img-fluid m-auto" style={{ width: "30%" }}/>
+								</span>
+								<div class="desc pb-3">
+									<h3>Dockerize container for deployment I write Nestjs for building scalable server-side APIs</h3>
+									
+									<ProgressBar  variant='success' now={now} label={`${now}%`} className='progress'/>
+									
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow docker">
+							<a href="#" class="services-1 w-100">
+								<span class="icon">
+									<img src={docker} alt="" class="img-fluid m-auto" style={{ width: "30%" }}/>
+								</span>
+								<div class="desc pb-3">
+									<h3>Dockerize container for deployment I write Nestjs for building scalable server-side APIs</h3>
+									
+									<ProgressBar  variant='success' now={now} label={`${now}%`} className='progress'/>
+									
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
         </div>
     </div>
     <div class="col-md-6">
