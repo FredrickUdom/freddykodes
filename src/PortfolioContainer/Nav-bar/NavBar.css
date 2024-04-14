@@ -16,11 +16,11 @@
     transition: all ease-in-out 1s;
     font-weight: bold;
 }
-/* .linkText a:hover{
+.linkText a:hover{
     color: #1E6DBA !important;
     transition: all ease-in-out 1s;
     font-weight: bold;
-} */
+}
 .linkText a{
     color: antiquewhite !important;
     padding-right: 60px !important ;
