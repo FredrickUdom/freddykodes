@@ -7,7 +7,7 @@ const Skill = () => {
 	const now = 70;
 	return (
 
-		<div className="skill">
+		<div className="skill" id='skills-section'>
 
 
 
@@ -24,7 +24,7 @@ const Skill = () => {
 						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
 							<a href="#" class="services-1 w-100">
 								<span class="icon ">
-									<img src={nestjs} alt="" class="img-fluid " style={{ width: "60%"}} />
+									<img src={nestjs} alt="" class="img-fluid m-auto " style={{ width: "60%"}} />
 								</span>
 								<div class="desc pb-3">
 									<h3>I write Nestjs for building scalable server-side APIs</h3>
@@ -34,7 +34,7 @@ const Skill = () => {
 						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
-									<img src={nestjs} alt="" class="img-fluid " style={{ width: "60%"}} />
+									<img src={nestjs} alt="" class="img-fluid m-auto" style={{ width: "60%"}} />
 								</span>
 								<div class="desc pb-3">
 									<h3>I write Nestjs for building scalable server-side APIs</h3>
@@ -44,7 +44,7 @@ const Skill = () => {
 						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
-									<img src={typescript} alt="" class="img-fluid"style={{ width: "60%"}} />
+									<img src={typescript} alt="" class="img-fluid m-auto"style={{ width: "60%"}} />
 								</span>
 								<div class="desc pb-3">
 									<h3>I use Typescript and Nodejs with Nestjs I write Nestjs for building scalable server-side APIs</h3>
@@ -54,7 +54,7 @@ const Skill = () => {
 						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
-									<img src={typescript} alt="" class="img-fluid" style={{ width: "60%"}} />
+									<img src={typescript} alt="" class="img-fluid m-auto" style={{ width: "60%"}} />
 								</span>
 								<div class="desc pb-3">
 									<h3>I use Typescript and Nodejs with Nestjs I write Nestjs for building scalable server-side APIs</h3>
@@ -65,7 +65,7 @@ const Skill = () => {
 						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow docker">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
-									<img src={docker} alt="" class="img-fluid" style={{ width: "30%" }}/>
+									<img src={docker} alt="" class="img-fluid m-auto" style={{ width: "30%" }}/>
 								</span>
 								<div class="desc pb-3">
 									<h3>Dockerize container for deployment I write Nestjs for building scalable server-side APIs</h3>
@@ -78,7 +78,7 @@ const Skill = () => {
 						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow docker">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
-									<img src={docker} alt="" class="img-fluid" style={{ width: "30%" }}/>
+									<img src={docker} alt="" class="img-fluid m-auto" style={{ width: "30%" }}/>
 								</span>
 								<div class="desc pb-3">
 									<h3>Dockerize container for deployment I write Nestjs for building scalable server-side APIs</h3>

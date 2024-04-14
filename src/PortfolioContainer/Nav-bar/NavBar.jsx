@@ -9,9 +9,9 @@ import About from '../About/About.jsx'
 
 function NavBar() {
   return (
-    <Navbar expand="lg md sm" className="navbar-area text-primary">
+    <Navbar expand="lg md sm" className="navbar-area text-primary home" id='home'>
       <Container className='logo'>
-        <Navbar.Brand a href="#">{'{ < Freddy Kodes /> }'} </Navbar.Brand>
+        <Navbar.Brand a href="#" className='text-center nav-logo'><span>{'{ F K }'}</span> <br /><span className='text-small'>{'< Freddy Kodes />'}</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"  className='bg-white'/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto linkText">

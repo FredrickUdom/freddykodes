@@ -8,7 +8,7 @@ function About() {
 	return (
 		// <section class="ftco-about img ftco-section ftco-no-pb pt-5 my-5" id="about-section">
 		<div class="container">
-			<div class="row content">
+			<div class="row content" id='about-section'>
 				<h2 class="mb-4 pt-5 h2 text-center"><p>About Me</p></h2>
 				<div class="col-sm-12 col-md-4 col-lg-4">
 					<div class="img-about img ">
