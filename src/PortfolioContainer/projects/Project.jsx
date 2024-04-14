@@ -6,12 +6,12 @@ const Project = () => {
   return (
     <div id="project-section">
 
-      <div class="content col-md-6">
+      <div class="content col-md-6 mt-5 m-auto text-center">
         <div class="shadow px-3 about bg-primary text-white certificate">
-          {/* <h3><b>CERTIFICATES</b></h3> */}
+          <h3><b>Projects</b></h3>
           {/* <Carousel> */}
           <div>
-            <img src={laptopSystem} style={{ width: "30%" }} />
+            <img src={laptopSystem} style={{ width: "30%"}} className='m-auto'/>
             <h1 className="legend text-bold-500">Web Design Skills</h1>
             <p>I create visually appealing web designs that suit your needs!
               <h1 className="legend text-bold-500">Graphic Design</h1>
