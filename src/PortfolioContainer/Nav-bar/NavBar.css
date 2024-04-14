@@ -11,11 +11,11 @@
 .text-small{
     font-size: 12px;
 }
-/* .logo a:hover{
+.logo a:hover{
     color: #1E6DBA;
     transition: all ease-in-out 1s;
     font-weight: bold;
-} */
+}
 /* .linkText a:hover{
     color: #1E6DBA !important;
     transition: all ease-in-out 1s;
