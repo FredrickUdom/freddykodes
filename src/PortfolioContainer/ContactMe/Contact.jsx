@@ -1,6 +1,8 @@
 import'./Contact.css';
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import Alert from 'react-bootstrap/Alert';
+import dotenv from 'dotenv';
 // import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 // import { Carousel } from 'react-responsive-carousel'; 
 import laptopSystem from '../../assets/img/system.jpg';
@@ -13,34 +15,53 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 
 
 
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCards } from "./ProjectCard";
-import colorSharp2 from "../assets/img/color-sharp2.png";
-import project1 from "../assets/img/project-airline.png";
-import project2 from "../assets/img/project-dashboard.PNG";
-import project3 from "../assets/img/movie-app.PNG";
-import project4 from "../assets/img/project-tindog.PNG";
-import project5 from "../assets/img/project-trurealtors.PNG";
-import project6 from "../assets/img/project-extension.PNG";
-import project7 from "../assets/img/Capture.JPG";
-import "animate.css";
-import TrackVisibility from "react-on-screen";
-import { useState } from "react";
+// import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+// import { ProjectCards } from "./ProjectCard";
+// import colorSharp2 from "../assets/img/color-sharp2.png";
+// import project1 from "../assets/img/project-airline.png";
+// import project2 from "../assets/img/project-dashboard.PNG";
+// import project3 from "../assets/img/movie-app.PNG";
+// import project4 from "../assets/img/project-tindog.PNG";
+// import project5 from "../assets/img/project-trurealtors.PNG";
+// import project6 from "../assets/img/project-extension.PNG";
+// import project7 from "../assets/img/Capture.JPG";
+// import "animate.css";
+// import TrackVisibility from "react-on-screen";
+// import { useState } from "react";
 
 const Contact = () => {
+  dotenv.config()
   const now = 70;
     const form = useRef();
-    const [sentMassage, setSentMessage] = useState(false);
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+    const [isEmailSent, setIsEmailSent] = useState(false);
     const sendEmail = (e) => {
       e.preventDefault();
+
+      const templateParams = {
+        from_name: name,
+        from_email: email,
+        to_name: "Freddy",
+        message: message,
+      };
+
+      const service_id = import.meta.env.VITE_service_id; 
+      const template_id = import.meta.env.VITE_template_id;
+      const public_key = import.meta.env.VITE_public_key;
   
       emailjs
-        .sendForm('service_f5coniy', 'template_qz5r5dn', form.current, {
-          publicKey: 'f_WQeaENkGAtfue8o',
+        .sendForm(service_id, template_id , form.current, {
+          publicKey: public_key,
         })
         .then(
           () => {
-            console.log('SUCCESS!');
+            // console.log('SUCCESS!');
+            <Alert variant="success">
+              <p>Message sent success</p>
+              </Alert>
+            alert('Message successfully sent!')
             setSentMessage(true)
           },
           (error) => {
@@ -55,68 +76,68 @@ const Contact = () => {
 
     // starting 
 
-    const [isProjectExpanded, projectExpanded] = useState(false);
-    const fullskilltext =
+    // const [isProjectExpanded, projectExpanded] = useState(false);
+    // const fullskilltext =
   
-      "I have a proven track record of contributing to highly productive and scalable projects. I specialize in creating visually appealing websites and captivating digital experiences that leave a lasting impression.  Throughout my career, I've played a pivotal role in driving growth for organizations by implementing strategic initiatives and optimizing workflows. By leveraging my expertise in web development, I've helped enhance operational efficiency and expand market reach, resulting in measurable results and increased brand visibility. With a collaborative approach and a passion for continuous learning, I'm committed to delivering exceptional outcomes and exceeding expectations.";
-    const toggleProjectExpand = () => {
-      projectExpanded(!isProjectExpanded);
-    };
+    //   "I have a proven track record of contributing to highly productive and scalable projects. I specialize in creating visually appealing websites and captivating digital experiences that leave a lasting impression.  Throughout my career, I've played a pivotal role in driving growth for organizations by implementing strategic initiatives and optimizing workflows. By leveraging my expertise in web development, I've helped enhance operational efficiency and expand market reach, resulting in measurable results and increased brand visibility. With a collaborative approach and a passion for continuous learning, I'm committed to delivering exceptional outcomes and exceeding expectations.";
+    // const toggleProjectExpand = () => {
+    //   projectExpanded(!isProjectExpanded);
+    // };
   
-    const projects = [
-      {
-        title: "Airline Website",
-        description: "Design & Development",
-        imgUrl: project1,
-        linkUrl: "https://airline-reservation-cpe412.vercel.app/",
-        category: ["web", "design"],
-      },
+    // const projects = [
+    //   {
+    //     title: "Airline Website",
+    //     description: "Design & Development",
+    //     imgUrl: project1,
+    //     linkUrl: "https://airline-reservation-cpe412.vercel.app/",
+    //     category: ["web", "design"],
+    //   },
   
-      {
-        title: "Startup Dashboard",
-        description: "Design & Development",
-        imgUrl: project2,
-        linkUrl: "https://dashboard-react-app-five.vercel.app/",
-        category: ["web", "design"],
-      },
-      {
-        title: "Movie App",
-        description: "Design & Development",
-        imgUrl: project3,
-        linkUrl: "https://hng-movie-app-li8t.onrender.com/",
-        category: "web",
-      },
-      {
-        title: "Tindog Website",
-        description: "Design & Development",
-        imgUrl: project4,
-        linkUrl: "https://tindog-app-pi.vercel.app/",
-        category: "web",
-      },
-      {
-        title: "Realtor Website",
-        description: "Design & Development",
-        imgUrl: project5,
-        linkUrl: "https://tru-realtor-app.vercel.app/",
-        category: "web",
-      },
-      {
-        title: "Chrome Extension",
-        description: "Design & Development",
-        imgUrl: project6,
-        linkUrl: "https://drag-and-drop-gallery-app.vercel.app/",
-        category: ["web", "design"],
-      },
+    //   {
+    //     title: "Startup Dashboard",
+    //     description: "Design & Development",
+    //     imgUrl: project2,
+    //     linkUrl: "https://dashboard-react-app-five.vercel.app/",
+    //     category: ["web", "design"],
+    //   },
+    //   {
+    //     title: "Movie App",
+    //     description: "Design & Development",
+    //     imgUrl: project3,
+    //     linkUrl: "https://hng-movie-app-li8t.onrender.com/",
+    //     category: "web",
+    //   },
+    //   {
+    //     title: "Tindog Website",
+    //     description: "Design & Development",
+    //     imgUrl: project4,
+    //     linkUrl: "https://tindog-app-pi.vercel.app/",
+    //     category: "web",
+    //   },
+    //   {
+    //     title: "Realtor Website",
+    //     description: "Design & Development",
+    //     imgUrl: project5,
+    //     linkUrl: "https://tru-realtor-app.vercel.app/",
+    //     category: "web",
+    //   },
+    //   {
+    //     title: "Chrome Extension",
+    //     description: "Design & Development",
+    //     imgUrl: project6,
+    //     linkUrl: "https://drag-and-drop-gallery-app.vercel.app/",
+    //     category: ["web", "design"],
+    //   },
   
-      {
-        title: "Award Design",
-        description: "Graphic Design",
-        imgUrl: project7,
-        linkUrl:
-          "https://drive.google.com/file/d/1jxTGuibsdju7sxkEWNI_mE519PUniZpT/view?usp=drive_link",
-        category: "design",
-      },
-    ];
+    //   {
+    //     title: "Award Design",
+    //     description: "Graphic Design",
+    //     imgUrl: project7,
+    //     linkUrl:
+    //       "https://drive.google.com/file/d/1jxTGuibsdju7sxkEWNI_mE519PUniZpT/view?usp=drive_link",
+    //     category: "design",
+    //   },
+    // ];
 
 
     // ending
@@ -126,7 +147,7 @@ const Contact = () => {
     <div class="content col-md-6 col-lg-6 d-flex">
 
 
-    <section className="project" id="project">
+    {/* <section className="project" id="project">
       <Container>
         <Row>
           <Col size={12}>
@@ -144,9 +165,9 @@ const Contact = () => {
                     ) : (
                       <div>
                         {fullskilltext.slice(0, 290)}{" "}
-                        {/* Display first 200 characters */}
+                       
                         {fullskilltext.length > 290 && "..."}{" "}
-                        {/* Add ellipsis if text is longer than 200 characters */}
+                       
                         <button
                           onClick={toggleProjectExpand}
                           className="project-button flex"
@@ -230,11 +251,11 @@ const Contact = () => {
         </Row>
       </Container>
       <img src={colorSharp2} alt="Image" className="background-img-right" />
-    </section>
+    </section> */}
 
 
 
-
+{/* ................................................................................................ */}
 
 
 
