@@ -2,7 +2,7 @@ import'./Contact.css';
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Alert from 'react-bootstrap/Alert';
-import dotenv from 'dotenv';
+// import dotenv from 'dotenv';
 // import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 // import { Carousel } from 'react-responsive-carousel'; 
 import laptopSystem from '../../assets/img/system.jpg';
@@ -30,7 +30,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 // import { useState } from "react";
 
 const Contact = () => {
-  dotenv.config()
+  // dotenv.config()
   const now = 70;
     const form = useRef();
     const [name, setName] = useState("");
@@ -40,12 +40,12 @@ const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();
 
-      const templateParams = {
-        from_name: name,
-        from_email: email,
-        to_name: "Freddy",
-        message: message,
-      };
+      // const templateParams = {
+      //   from_name: name,
+      //   from_email: email,
+      //   to_name: "Freddy",
+      //   message: message,
+      // };
 
       const service_id = import.meta.env.VITE_service_id; 
       const template_id = import.meta.env.VITE_template_id;
