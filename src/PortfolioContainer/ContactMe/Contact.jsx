@@ -57,7 +57,7 @@ const Contact = () => {
         })
         .then(
           () => {
-            // console.log('SUCCESS!');
+            console.log('SUCCESS!');
            
             alert('Message successfully sent!')
             setSentMessage(true)
