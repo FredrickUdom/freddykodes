@@ -259,7 +259,7 @@ const Contact = () => {
 
 
 
-        {/* <div class="shadow px-3 about bg-primary text-white certificate">
+        <div class="shadow px-3 about bg-primary text-white certificate">
         <section class="ftco-section" id="services-section">
 				<div class="container">
 					<div class="row justify-content-center">
@@ -320,7 +320,7 @@ const Contact = () => {
 			</section>
 
 
-        </div> */}
+        </div>
     </div>
     <div class="col-md-6">
         <form ref={form} onSubmit={sendEmail} class="shadow p-4 p-md-5 contact-form bg-light">
