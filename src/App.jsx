@@ -10,14 +10,14 @@ import Skill from './PortfolioContainer/Skill/Skill';
 import Project from './PortfolioContainer/projects/Project';
 import Contact from './PortfolioContainer/ContactMe/Contact';
 import FooterArea from './PortfolioContainer/Footer/Footer';
-import dotenv from 'dotenv';
+
 
 
 
 
 function App() {
   // const [count, setCount] = useState(0)
-  dotenv.config();
+ 
 
   return (
     <>

@@ -1,7 +1,7 @@
 import'./Contact.css';
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import Alert from 'react-bootstrap/Alert';
+
 // import dotenv from 'dotenv';
 // import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 // import { Carousel } from 'react-responsive-carousel'; 
@@ -58,9 +58,7 @@ const Contact = () => {
         .then(
           () => {
             // console.log('SUCCESS!');
-            <Alert variant="success">
-              <p>Message sent success</p>
-              </Alert>
+           
             alert('Message successfully sent!')
             setSentMessage(true)
           },
