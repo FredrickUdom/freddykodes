@@ -33,10 +33,10 @@ const Contact = () => {
   // dotenv.config()
   const now = 70;
     const form = useRef();
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [message, setMessage] = useState("");
-    const [isEmailSent, setIsEmailSent] = useState(false);
+    // const [name, setName] = useState("");
+    // const [email, setEmail] = useState("");
+    // const [message, setMessage] = useState("");
+    // const [isEmailSent, setIsEmailSent] = useState(false);
     const sendEmail = (e) => {
       e.preventDefault();
 
@@ -60,7 +60,7 @@ const Contact = () => {
             console.log('SUCCESS!');
            
             alert('Message successfully sent!')
-            setSentMessage(true)
+            // setSentMessage(true)
           },
           (error) => {
             console.log('FAILED...', error.text);
