@@ -22,14 +22,16 @@ function About() {
 					<div class="row justify-content-start pb-3">
 						<div class="col-md-12 heading-section ftco-animate">
 							<div class="shadow px-3 about">
-								<p>I write server-side logic with NestJS using SQL and NoSQL databases. I am passionate about learning new things and improving my skills as a Backend Developer. I am a seasoned developer with 2 years of experience in ExpressJs/NestJs and HTML, CSS, Bootstrap.</p>
-								<p class="pt-3">I am a seasoned web developer with 3 years of backend web developer experience. My expertise in back-end web development enables me to create dynamic and user-friendly web applications APIs. With my experience, I guide aspiring developers who are eager to dive into the world of tech through web development, fostering their growth and problem-solving skills.</p>
+								<p>I'm a Backend Developer with 2+ years of experience crafting server-side logic using NestJS and working with both SQL and NoSQL databases. I'm a passionate learner constantly seeking out new technologies to enhance my skills.  While proficient in Express.js/NestJS, HTML, CSS, and Bootstrap, my expertise lies in creating dynamic and user-friendly web application APIs. <br /> <br /> I also enjoy mentoring aspiring developers, fostering their growth and problem-solving skills in the world of web development. <br /> <br />
+								My strong communication and collaboration skills allow me to effectively work with cross-functional teams to deliver high-quality and scalable backend solutions.
+								</p>
+								{/* <p class="pt-3">I am a seasoned web developer with 3 years of backend web developer experience. My expertise in back-end web development enables me to create dynamic and user-friendly web applications APIs. With my experience, I guide aspiring developers who are eager to dive into the world of tech through web development, fostering their growth and problem-solving skills.</p> */}
 							</div>
 						</div>
 					</div>
 					<div class="counter-wrap ftco-animate d-flex mt-md-1">
 					<div class="form-group pt-3">
-					<a href="fredrickUdom_Resume.pdf" download=" Fredrick fredrickUdom_Resume.pdf"><button type="button" className='btn btn-primary py-3' style={{backgroundColor: '#111E6C '}}>Download Resume <i class="fa fa-cloud-download" aria-hidden="true"></i></button></a>
+					<a href="fredrickUdom.pdf" download=" Fredrick fredrickUdom.pdf"><button type="button" className='btn btn-primary py-3' style={{backgroundColor: '#111E6C '}}>Download Resume <i class="fa fa-cloud-download" aria-hidden="true"></i></button></a>
             </div>
 					</div>
 				</div>

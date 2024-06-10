@@ -64,9 +64,9 @@ function Profile() {
                                         3000,
                                         "NestJs Backend Dev 💻",
                                         3000,
-                                        "Html & Css Web Dev",
+                                        "Html, Css & Boostrap Web Dev",
                                         3000,
-                                        "MERN Stack Dev",
+                                        "Aspiring DevOps Engineer",
                                         3000,
                                     ]}
                                 />
@@ -82,7 +82,7 @@ function Profile() {
                             Hire Me 😉{" "}
                         </button> */}
                         <a href=""><button className="btn highlighted-btn hire-me">Hire Me 😉</button></a>
-                        <a href="fredrickUdom_Resume.pdf" download=" Fredrick fredrickUdom_Resume.pdf"><button className="btn highlighted-btn get-resume">Resume <i class="fa fa-download" aria-hidden="true"></i></button></a>
+                        <a href="fredrickUdom.pdf" download=" Fredrick fredrickUdom.pdf"><button className="btn highlighted-btn get-resume">Resume <i class="fa fa-download" aria-hidden="true"></i></button></a>
 
                     </div>
                 </div>
