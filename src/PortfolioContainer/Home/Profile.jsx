@@ -72,7 +72,7 @@ function Profile() {
                                 />
                             </h3>
                             <span className="profile-role-tagline">
-                                Knack of building application with frontend and backend operations.
+                                Knack of building application with backend server-side operations.
                             </span>
                         </span>
                     </div>
