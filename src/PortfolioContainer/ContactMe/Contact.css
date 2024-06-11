@@ -24,5 +24,15 @@
     border-radius: 5px;
 }
 
+.form-group button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    background: #111E6C !important;
+
+}
+.form-group button:hover{
+    background: #1A569C !important;
+    transition: ease-in-out 1s;
+}
+
 
 
