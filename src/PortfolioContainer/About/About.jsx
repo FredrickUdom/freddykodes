@@ -31,7 +31,11 @@ function About() {
 					</div>
 					<div class="counter-wrap ftco-animate d-flex mt-md-1">
 					<div class="form-group pt-3">
-					<a href="fredrickUdom.pdf" download=" Fredrick fredrickUdom.pdf"><button type="button" className='btn btn-primary py-3' style={{backgroundColor: '#111E6C '}}>Download Resume <i class="fa fa-cloud-download" aria-hidden="true"></i></button></a>
+					{/* <a href="fredrickUdom.pdf" download=" Fredrick fredrickUdom.pdf"><button type="button" className='btn btn-primary py-3' style={{backgroundColor: '#111E6C '}}>Download Resume <i class="fa fa-cloud-download" aria-hidden="true"></i></button></a> */}
+
+					<div className="download-resume">
+					<a href="fredrickUdom.pdf" download=" Fredrick fredrickUdom.pdf"><button className="btn highlighted-btn get-resume">Download CV <i class="fa fa-download" aria-hidden="true"></i></button></a>
+					</div>
             </div>
 					</div>
 				</div>
