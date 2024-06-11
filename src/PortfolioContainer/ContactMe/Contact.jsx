@@ -338,7 +338,8 @@ const Contact = () => {
                 <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
             </div>
             <div class="form-group pt-3">
-                <input type="submit" value="Send Message" class="btn text-center btn-primary py-3 px-5 contact-btn"/>
+                {/* <input type="submit" value="Send Message" class="btn text-center btn-primary py-3 px-5 contact-btn"/> */}
+                <a href=""><button className="btn btn-primary py-3" type='submit'>Send Message <i class="fa fa-paper-plane" aria-hidden="true"></i></button></a>
             </div>
         </form>
     </div>
