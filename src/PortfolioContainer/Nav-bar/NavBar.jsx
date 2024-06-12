@@ -10,17 +10,17 @@ import About from '../About/About.jsx'
 function NavBar() {
   return (
     <Navbar expand="lg md sm" className="navbar-area text-primary home" id='home'>
-      <Container className='logo'>
-        <Navbar.Brand a href="#" className='text-center nav-logo'><span>{'{ F K }'}</span> <br /><span className='text-small'>{'< Freddy Kodes />'}</span></Navbar.Brand>
+      <Container className='logo' id='logo'>
+        <Navbar.Brand a href="https://fredrickudom.github.io/freddykodes/" className='text-center nav-logo'><span>{'{ F K }'}</span> <br /><span className='text-small'>{'< Freddy Kodes />'}</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"  className='bg-white'/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto linkText">
             <div className="home">
-            <Nav.Link a href="home">Home</Nav.Link>
+            <Nav.Link a href="https://fredrickudom.github.io/freddykodes/">Home</Nav.Link>
             </div>
             <Nav.Link a href="#about-section">About</Nav.Link>
             <Nav.Link a href="#skills-section">Skills</Nav.Link>
-            <Nav.Link a href="#project">Projects</Nav.Link>
+            <Nav.Link a href="#project-section">Projects</Nav.Link>
             <Nav.Link a href="#connect">Connect</Nav.Link>
             {/* <NavDropdown title="DropdownFred" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

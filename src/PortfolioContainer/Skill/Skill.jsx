@@ -37,7 +37,7 @@ const Skill = () => {
 								</span>
 								<div class="desc pb-3">
 									<h3>I write Nestjs for building scalable server-side APIs</h3>
-									<ProgressBar  variant='success' now={nestjsParcent} label={`${nestjsParcent}%`} className='progress'/>
+									{/* <ProgressBar  variant='success' now={nestjsParcent} label={`${nestjsParcent}%`} className='progress'/> */}
 								</div>
 							</a>
 						</div>
@@ -48,7 +48,7 @@ const Skill = () => {
 								</span>
 								<div class="desc pb-3">
 									<h3>I write Nestjs for building scalable server-side APIs</h3>
-									<ProgressBar  variant='success' now={nodejsPercent} label={`${nodejsPercent}%`} className='progress'/>
+									{/* <ProgressBar  variant='success' now={nodejsPercent} label={`${nodejsPercent}%`} className='progress'/> */}
 								</div>
 							</a>
 						</div>
@@ -59,7 +59,7 @@ const Skill = () => {
 								</span>
 								<div class="desc pb-3">
 									<h3>I use Typescript and Nodejs with Nestjs I write Nestjs for building scalable server-side APIs</h3>
-									<ProgressBar  variant='success' now={TypescriptPercent} label={`${TypescriptPercent}%`} className='progress'/>
+									{/* <ProgressBar  variant='success' now={TypescriptPercent} label={`${TypescriptPercent}%`} className='progress'/> */}
 								</div>
 							</a>
 						</div>
@@ -70,7 +70,7 @@ const Skill = () => {
 								</span>
 								<div class="desc pb-3">
 									<h3>I use Typescript and Nodejs with Nestjs I write Nestjs for building scalable server-side APIs</h3>
-									<ProgressBar  variant='success' now={javascriptPercent} label={`${javascriptPercent}%`} className='progress'/>
+									{/* <ProgressBar  variant='success' now={javascriptPercent} label={`${javascriptPercent}%`} className='progress'/> */}
 								</div>
 							</a>
 						</div>
@@ -83,7 +83,7 @@ const Skill = () => {
 								<div class="desc pb-3">
 									<h3>Dockerize container for deployment I write Nestjs for building scalable server-side APIs</h3>
 									
-									<ProgressBar  variant='success' now={githubPercent} label={`${githubPercent}%`} className='progress'/>
+									{/* <ProgressBar  variant='success' now={githubPercent} label={`${githubPercent}%`} className='progress'/> */}
 									
 								</div>
 							</a>
@@ -96,7 +96,7 @@ const Skill = () => {
 								<div class="desc pb-3">
 									<h3>Dockerize container for deployment I write Nestjs for building scalable server-side APIs</h3>
 									
-									<ProgressBar  variant='success' now={dockerPercent} label={`${dockerPercent}%`} className='progress'/>
+									{/* <ProgressBar  variant='success' now={dockerPercent} label={`${dockerPercent}%`} className='progress'/> */}
 									
 								</div>
 							</a>

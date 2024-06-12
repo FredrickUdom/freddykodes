@@ -20,7 +20,7 @@ function Profile() {
                         <div className="colz-icon">
 
                            
-                            <a href="">
+                            <a href="https://www.facebook.com/freddyfred93">
                                 <i className="fa fa-facebook-square" aria-hidden="true"></i>
                             </a>
                             <a href="">
@@ -29,17 +29,17 @@ function Profile() {
                             {/* <a href="">
                                 <i className="fa fa-google-plus-square" aria-hidden="true"></i>
                             </a> */}
-                            <a href="">
+                            <a href="https://www.instagram.com/fredrickudom/">
                                 <i className="fa fa-instagram" aria-hidden="true"></i>
                             </a>
                             {/* <a href="">
                                 <i className="fa fa-youtube-square" aria-hidden="true"></i>
                             </a> */}
-                            <a href="">
+                            <a href="https://x.com/FredrickUdom">
                                 <i className="fa fa-twitter" aria-hidden="true"></i>
                             </a>
                             
-                            <a href="">
+                            <a href="https://github.com/FredrickUdom">
                                 <i class="fa fa-linkedin" aria-hidden="true"></i>
                                 <i class="fa fa-github" aria-hidden="true"></i>
                             </a>

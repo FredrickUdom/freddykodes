@@ -259,8 +259,8 @@ const Contact = () => {
 
 
 
-        <div class="shadow px-3 about bg-primary text-white certificate">
-        <section class="ftco-section" id="services-section">
+        <div class="shadow px-3 about bg-primary text-white certificate" id='connect'>
+        <section class="ftco-section" id="services-section connect">
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-md-12 heading-section text-center ftco-animate">
