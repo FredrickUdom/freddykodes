@@ -66,7 +66,7 @@ function Profile() {
                                         3000,
                                         "Html, Css & Boostrap Web Dev",
                                         3000,
-                                        "Aspiring DevOps Engineer",
+                                        "Aspiring Azure DevOps Engineer",
                                         3000,
                                     ]}
                                 />
