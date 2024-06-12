@@ -264,7 +264,7 @@ const Contact = () => {
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-md-12 heading-section text-center ftco-animate">
-						<h2 class="mb-4 h2 text-center"><p>Certificate</p></h2>
+						<h2 class="mb-4 h2 text-center py-2"><p>Certificate</p></h2>
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
 						</div>
 					</div>

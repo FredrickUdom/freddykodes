@@ -21,7 +21,7 @@ function About() {
 				<div class="col-sm-12 col-md-8 col-lg-8 pl-lg-8 pb-5 context">
 					<div class="row justify-content-start pb-3">
 						<div class="col-md-12 heading-section ftco-animate">
-							<div class="shadow px-3 about">
+							<div class="shadow px-3 about py-3">
 								<p>I'm a Backend Developer with 2+ years of experience crafting server-side logic using NestJS and working with both SQL and NoSQL databases. I'm a passionate learner constantly seeking out new technologies to enhance my skills.  While proficient in Express.js/NestJS, HTML, CSS, and Bootstrap, my expertise lies in creating dynamic and user-friendly web application APIs. <br /> I also enjoy mentoring aspiring developers, fostering their growth and problem-solving skills in the world of web development. <br />
 								My strong communication and collaboration skills allow me to effectively work with cross-functional teams to deliver high-quality and scalable backend solutions.
 								</p>
