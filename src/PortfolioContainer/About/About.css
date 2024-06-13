@@ -20,7 +20,8 @@ h2 p{
 }
 .img img:hover{
     transform: scale(0.5);
-    transition: 1.9s ease-in;
+    transition: 2s ease-in;
+   
 
     
 }

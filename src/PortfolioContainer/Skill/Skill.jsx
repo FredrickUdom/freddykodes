@@ -25,7 +25,7 @@ const Skill = () => {
 					<div class="row justify-content-center py-2">
 						<div class="col-md-12 heading-section text-center ftco-animate py-2">
 						<h2 class="mb-4 pt-5 h2 text-center"><p>Skills</p></h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+							<p> Here’s an overview of some essential technologies I use to foster my learning and my growth in Web Development.</p>
 						</div>
 					</div>
 
