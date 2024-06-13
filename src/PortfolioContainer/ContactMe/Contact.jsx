@@ -278,7 +278,7 @@ const Contact = () => {
 									<img src={google_cert} alt="" class="img-fluid m-auto " style={{width: "100%", height:"70%"}} />
 								</span>
 								<div class="desc pb-3">
-									<h3>Google Certification Of Completion</h3>
+									<h3 className='py-2'><b>Google Certification Of Completion</b></h3>
 									<p>IT Security: Defense Against The Digital Dark Atrs</p>
 								</div>
 							</a>
@@ -289,7 +289,7 @@ const Contact = () => {
 									<img src={startHub_cert} alt="" class="img-fluid m-auto" style={{ width: "100%", height:"70%"}} />
 								</span>
 								<div class="desc pb-5">
-								  <h3>Web Development Certificate Of Completion</h3>
+								  <h3 className='py-2'><b>Web Development Certificate Of Completion</b></h3>
 									<p>6 Months Web Development Training Course</p>
 								</div>
 							</a>
