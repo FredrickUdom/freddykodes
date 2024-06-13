@@ -275,7 +275,7 @@ const Contact = () => {
 						<div class="col-lg-5 col-md-6 text-center d-flex ftco-animate shadow services">
 							<a href="#" class="services-1 w-100">
 								<span class="icon ">
-									<img src={google_cert} alt="" class="img-fluid m-auto " style={{width: "100%", height:"90%"}} />
+									<img src={google_cert} alt="" class="img-fluid m-auto " style={{width: "100%", height:"70%"}} />
 								</span>
 								<div class="desc pb-3">
 									<h3>Google Certification Of Completion</h3>
@@ -286,7 +286,7 @@ const Contact = () => {
 						<div class="col-lg-5 col-md-6 text-center d-flex ftco-animate shadow services">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
-									<img src={startHub_cert} alt="" class="img-fluid m-auto" style={{ width: "100%", height:"90%"}} />
+									<img src={startHub_cert} alt="" class="img-fluid m-auto" style={{ width: "100%", height:"70%"}} />
 								</span>
 								<div class="desc pb-5">
 								  <h3>Web Development Certificate Of Completion</h3>
