@@ -288,7 +288,7 @@ const Contact = () => {
 								<span class="icon">
 									<img src={startHub_cert} alt="" class="img-fluid m-auto" style={{ width: "100%", height:"90%"}} />
 								</span>
-								<div class="desc pb-3">
+								<div class="desc pb-5">
 								  <h3>Web Development Certificate Of Completion</h3>
 									<p>6 Months Web Development Training Course</p>
 								</div>
