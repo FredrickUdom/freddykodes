@@ -1,6 +1,8 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel'; 
-import laptopSystem from '../../assets/img/system.jpg';
+import html from '../../assets/img/html-css.png';
+import emailTemplate from '../../assets/img/email-template.png';
+import agricPro from '../../assets/img/agric-pro.jpg';
 import './Project.css'
 const Project = () => {
   return (
@@ -11,20 +13,20 @@ const Project = () => {
           <h3 className="py-3"><b>Projects</b></h3>
           <Carousel>
           <div>
-            <img src={laptopSystem} style={{ width: "30%"}} className='m-auto'/>
-            <h1 className="legend text-bold-500">Web Design Skills</h1>
-            <p>I create visually appealing web designs that suit your needs!
-              <h1 className="legend text-bold-500">Graphic Design</h1>
+            <img src={agricPro} style={{ width: "20%", height:"5%"}} className='m-auto'/>
+            {/* <h1 className="legend text-bold-500">Web Design Skills</h1> */}
+            <p>I wrote the Backend API for this 
+              {/* <h1 className="legend text-bold-500">Graphic Design</h1> */}
             </p>
           </div>
           <div>
-            <img src={laptopSystem} style={{ width: "30%" }} className='m-auto' />
-            <h1 className="legend">Software Development</h1>
+            <img src={emailTemplate} style={{ width: "20%", height:"5%" }} className='m-auto' />
+            {/* <h1 className="legend">Software Development</h1> */}
             <p>My digital skills enable me to create functional and visually appealing UI and applications. I deliver exceptional results and drive growth that meet the unique needs of my clients and employers</p>
           </div>
           <div>
-            <img src={laptopSystem} style={{ width: "30%" }} className='m-auto' />
-            <h1 className="legend font-bold">Entrepreneurship </h1>
+            <img src={html} style={{ width: "30%" }} className='m-auto' />
+            {/* <h1 className="legend font-bold">Entrepreneurship </h1> */}
             <p>I leverage my digital skills in a customer-centric and result-driven way!</p>
           </div>
           </Carousel>

@@ -8,7 +8,9 @@ import emailjs from '@emailjs/browser';
 import laptopSystem from '../../assets/img/system.jpg';
 
 import docker from '../../assets/img/docker.png';
-import nestjs from '../../assets/img/nestjs.png';
+import google_cert from '../../assets/img/Google_IT_Support.jpg';
+import startHub_cert from '../../assets/img/Dickson-Certificate.jpg';
+
 import typescript from '../../assets/img/typescript_node.png';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
@@ -273,7 +275,7 @@ const Contact = () => {
 						<div class="col-lg-5 col-md-6 text-center d-flex ftco-animate shadow services">
 							<a href="#" class="services-1 w-100">
 								<span class="icon ">
-									<img src={nestjs} alt="" class="img-fluid m-auto " style={{width: "100%", height:"90%"}} />
+									<img src={google_cert} alt="" class="img-fluid m-auto " style={{width: "100%", height:"90%"}} />
 								</span>
 								<div class="desc pb-3">
 									<h3>I write Nestjs for building scalable server-side APIs</h3>
@@ -283,38 +285,13 @@ const Contact = () => {
 						<div class="col-lg-5 col-md-6 text-center d-flex ftco-animate shadow services">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
-									<img src={nestjs} alt="" class="img-fluid m-auto" style={{ width: "100%", height:"90%"}} />
+									<img src={startHub_cert} alt="" class="img-fluid m-auto" style={{ width: "100%", height:"90%"}} />
 								</span>
 								<div class="desc pb-3">
 									<h3>I write Nestjs for building scalable server-side APIs</h3>
 								</div>
 							</a>
-						</div>
-						
-            <div class="col-lg-5 col-md-6 text-center d-flex ftco-animate shadow services">
-							<a href="#" class="services-1 w-100">
-								<span class="icon ">
-									<img src={nestjs} alt="" class="img-fluid m-auto " style={{width: "100%", height:"90%"}} />
-								</span>
-								<div class="desc pb-3">
-									<h3>I write Nestjs for building scalable server-side APIs</h3>
-								</div>
-							</a>
-						</div>
-						<div class="col-lg-5 col-md-6 text-center d-flex ftco-animate shadow services">
-							<a href="#" class="services-1 w-100">
-								<span class="icon">
-									<img src={nestjs} alt="" class="img-fluid m-auto" style={{ width: "100%", height:"90%"}} />
-								</span>
-								<div class="desc pb-3">
-									<h3>I write Nestjs for building scalable server-side APIs</h3>
-								</div>
-							</a>
-						</div>
-						
-						
-						
-						
+						</div>	
 					</div>
 				</div>
 			</section>
