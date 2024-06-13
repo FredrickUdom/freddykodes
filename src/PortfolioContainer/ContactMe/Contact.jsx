@@ -272,7 +272,7 @@ const Contact = () => {
 					</div>
 
 					<div class="row gap-5 justify-content-center">
-						<div class="col-lg-5 col-md-6 text-center d-flex ftco-animate shadow services">
+						<div class="col-lg-5 col-md-6 text-center d-flex ftco-animate  services">
 							<a href="#" class="services-1 w-100">
 								<span class="icon ">
 									<img src={google_cert} alt="" class="img-fluid m-auto " style={{width: "100%", height:"70%"}} />
@@ -283,7 +283,7 @@ const Contact = () => {
 								</div>
 							</a>
 						</div>
-						<div class="col-lg-5 col-md-6 text-center d-flex ftco-animate shadow services">
+						<div class="col-lg-5 col-md-6 text-center d-flex ftco-animate  services">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
 									<img src={startHub_cert} alt="" class="img-fluid m-auto" style={{ width: "100%", height:"70%"}} />

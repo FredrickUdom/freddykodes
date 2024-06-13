@@ -19,8 +19,8 @@ h2 p{
    
 }
 .img img:hover{
-    transform: rotate(360deg);
-    transition: 1.9s ease-out;
+    transform: scale(0.5);
+    transition: 1.9s ease-in;
 
     
 }

@@ -36,7 +36,7 @@ const Skill = () => {
 									<img src={nestjs} alt="" class="img-fluid m-auto pt-3" style={{ width: "60%"}} />
 								</span>
 								<div class="desc pb-3 py-2">
-									<h3>I write Nestjs for building scalable server-side APIs</h3>
+									<h3>Leveraging NestJS to build structured and maintainable server-side applications with a modular architecture while applying SOLID principles to write clean and reusable code.</h3>
 									{/* <ProgressBar  variant='success' now={nestjsParcent} label={`${nestjsParcent}%`} className='progress'/> */}
 								</div>
 							</a>
@@ -47,7 +47,7 @@ const Skill = () => {
 									<img src={nodejs} alt="" class="img-fluid m-auto pt-3" style={{ width: "60%"}} />
 								</span>
 								<div class="desc pb-3 py-2">
-									<h3>I write Nestjs for building scalable server-side APIs</h3>
+									<h3> Extensive experience with Node.js for building scalable network applications and real-time services.</h3>
 									{/* <ProgressBar  variant='success' now={nodejsPercent} label={`${nodejsPercent}%`} className='progress'/> */}
 								</div>
 							</a>
@@ -58,7 +58,7 @@ const Skill = () => {
 									<img src={typescript} alt="" class="img-fluid m-auto pt-3"style={{ width: "40%"}} />
 								</span>
 								<div class="desc pb-3 py-2">
-									<h3>I use Typescript and Nodejs with Nestjs I write Nestjs for building scalable server-side APIs</h3>
+									<h3>Utilizing TypeScript for its static typing and advanced features to write cleaner, more reliable code.</h3>
 									{/* <ProgressBar  variant='success' now={TypescriptPercent} label={`${TypescriptPercent}%`} className='progress'/> */}
 								</div>
 							</a>
@@ -69,7 +69,7 @@ const Skill = () => {
 									<img src={javascript} alt="" class="img-fluid m-auto pt-3" style={{ width: "40%"}} />
 								</span>
 								<div class="desc pb-3 py-2">
-									<h3>I use Typescript and Nodejs with Nestjs I write Nestjs for building scalable server-side APIs</h3>
+									<h3> Proficient in JavaScript, enabling the development of dynamic and interactive web applications.</h3>
 									{/* <ProgressBar  variant='success' now={javascriptPercent} label={`${javascriptPercent}%`} className='progress'/> */}
 								</div>
 							</a>
@@ -81,7 +81,7 @@ const Skill = () => {
 									<img src={github} alt="" class="img-fluid m-auto pt-3" style={{ width: "30%" }}/>
 								</span>
 								<div class="desc pb-3 py-2">
-									<h3>Dockerize container for deployment I write Nestjs for building scalable server-side APIs</h3>
+									<h3>Skilled in using GitHub for version control, collaboration, and managing code repositories.</h3>
 									
 									{/* <ProgressBar  variant='success' now={githubPercent} label={`${githubPercent}%`} className='progress'/> */}
 									
@@ -94,7 +94,7 @@ const Skill = () => {
 									<img src={docker} alt="" class="img-fluid m-auto pt-3" style={{ width: "30%" }}/>
 								</span>
 								<div class="desc pb-3 py-2">
-									<h3>Dockerize container for deployment I write Nestjs for building scalable server-side APIs</h3>
+									<h3>Proficient in Docker for containerization, ensuring consistent environments across development, testing, and production.</h3>
 									
 									{/* <ProgressBar  variant='success' now={dockerPercent} label={`${dockerPercent}%`} className='progress'/> */}
 									
