@@ -15,19 +15,19 @@ const Project = () => {
           <div>
             <img src={agricPro} style={{ width: "20%", height:"5%"}} className='m-auto'/>
             {/* <h1 className="legend text-bold-500">Web Design Skills</h1> */}
-            <p>I wrote the Backend API for this 
+            <p>This is was an Hackathon project that took place in Lagos, Nigeria. I wrote all Backend functionalities for all endpoints and send the API key to the mobile developer to consume 
               {/* <h1 className="legend text-bold-500">Graphic Design</h1> */}
             </p>
           </div>
           <div>
             <img src={emailTemplate} style={{ width: "20%", height:"5%" }} className='m-auto' />
             {/* <h1 className="legend">Software Development</h1> */}
-            <p>My digital skills enable me to create functional and visually appealing UI and applications. I deliver exceptional results and drive growth that meet the unique needs of my clients and employers</p>
+            <p>I was a contributor in this project, I worked on the backend codebase where I implemeted feature to send email to all auth endpoints using Nestjs framework and nodemailer dependency</p>
           </div>
           <div>
             <img src={html} style={{ width: "30%" }} className='m-auto' />
             {/* <h1 className="legend font-bold">Entrepreneurship </h1> */}
-            <p>I leverage my digital skills in a customer-centric and result-driven way!</p>
+            <p>This project was a challenge to  built using HTML, CSS and BOOSTRAP thereby making it responsive to all devices</p>
           </div>
           </Carousel>
         </div>
