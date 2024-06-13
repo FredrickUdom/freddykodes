@@ -266,8 +266,8 @@ const Contact = () => {
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-md-12 heading-section text-center ftco-animate">
-						<h2 class="mb-4 h2 text-center py-2"><p>Certificate</p></h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+						<h2 class="mb-4 h2 text-center py-2"><p>Certificates</p></h2>
+							{/* <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p> */}
 						</div>
 					</div>
 
@@ -278,7 +278,8 @@ const Contact = () => {
 									<img src={google_cert} alt="" class="img-fluid m-auto " style={{width: "100%", height:"90%"}} />
 								</span>
 								<div class="desc pb-3">
-									<h3>I write Nestjs for building scalable server-side APIs</h3>
+									<h3>Google Certification Of Completion</h3>
+									<p>IT Security: Defense Against The Digital Dark Atrs</p>
 								</div>
 							</a>
 						</div>
@@ -288,7 +289,8 @@ const Contact = () => {
 									<img src={startHub_cert} alt="" class="img-fluid m-auto" style={{ width: "100%", height:"90%"}} />
 								</span>
 								<div class="desc pb-3">
-									<h3>I write Nestjs for building scalable server-side APIs</h3>
+								  <h3>Web Development Certificate Of Completion</h3>
+									<p>6 Months Web Development Training Course</p>
 								</div>
 							</a>
 						</div>	
