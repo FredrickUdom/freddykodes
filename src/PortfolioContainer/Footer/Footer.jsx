@@ -36,7 +36,7 @@ const FooterArea = () => {
                             </a>
                         </div>
                         <div className="copy-right pt-3">
-                        <p>&copy; {date} FreddyKodes</p>
+                        <p>FreddyKodes &copy; {date} </p>
                         </div>
                     </div>
             {/* <marquee behavior="" direction="">welcome to my Freddy Kodes</marquee> */}
