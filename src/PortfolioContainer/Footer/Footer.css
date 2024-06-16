@@ -9,3 +9,8 @@
     
     
 }
+.footer a:hover{
+    color: #4c64f1;
+    font-size: larger !important;
+    transition: all ease-in-out 1s;
+}
